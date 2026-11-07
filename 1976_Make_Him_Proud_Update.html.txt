@@ -52,12 +52,25 @@ campaignTrail_temp.achievements = {
         "image" : "https://i.imgur.com/W7s7Auw.png",
         "description" : "Get under 80 electoral votes with Sparkman as your running mate"
     },
+    "Mean Gene" : {
+        "image" : "https://i.imgur.com/SgyEsbT.png",
+        "description" : "As Adlai Stevenson, have McCarthy win electoral votes"
+    },
+    "Todays Subject—Slavery" : {
+        "image" : "https://i.imgur.com/VSgugrq.png",
+        "description" : "Win 350+ electoral votes with Sparkman as your running mate"
+    },
+    "Whole House Mad" : {
+        "image" : "https://i.imgur.com/lSxqqmP.png",
+        "description" : "Lose every state with Sparkman by your side"
+    },
     "All Aboard!" : {
         "image" : "https://i.imgur.com/giHadxS.png",
         "description" : "Win while endorsing busing with Sparkman as your running mate",
         "cannotBeCheated" : true
     }
 }
+
 
 campaignTrail_temp.temp_election_list = [
     {
