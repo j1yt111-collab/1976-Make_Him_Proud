@@ -472,7 +472,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3601,
         "fields": {
             "question": 432,
-            "description": "I can't flip on bussing. It'll hurt, but we've been fighting for integration for so long; we won't stop now just because the backlash is getting louder."
+            "description": "I can't flip on busing. It'll hurt, but we've been fighting for integration for so long; we won't stop now just because the backlash is getting louder."
         }
     },
     {
