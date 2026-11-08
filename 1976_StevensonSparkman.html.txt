@@ -824,7 +824,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12923,
         "fields": {
             "question": 432,
-            "description": "We need a wide tent if we want to win this election. Say the least offensive thing we can say about bussing, then move on to other topics."
+            "description": "We need a wide tent if we want to win this election. Say the least offensive thing we can say about busing, then move on to other topics."
         }
     },
     {
