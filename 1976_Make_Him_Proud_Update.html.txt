@@ -46,23 +46,28 @@ campaignTrail_temp.election_json = [
 campaignTrail_temp.achievements = {
     "Ball and Chain" : {
         "image" : "https://i.imgur.com/YEiidWT.png",
-        "description" : "Win with Sparkman as your running mate"
+        "description" : "Win with Sparkman as your running mate",
+        "cannotBeCheated" : true
     },
     "Who's At Fault?" : {
         "image" : "https://i.imgur.com/W7s7Auw.png",
-        "description" : "Get under 80 electoral votes with Sparkman as your running mate"
+        "description" : "Get under 80 electoral votes with Sparkman as your running mate",
+        "cannotBeCheated" : true
     },
     "Mean Gene" : {
         "image" : "https://i.imgur.com/SgyEsbT.png",
-        "description" : "As Adlai Stevenson, have McCarthy win electoral votes"
+        "description" : "As Adlai Stevenson, have McCarthy win electoral votes",
+        "cannotBeCheated" : true
     },
     "Todays Subject—Slavery" : {
         "image" : "https://i.imgur.com/VSgugrq.png",
-        "description" : "Win 350+ electoral votes with Sparkman as your running mate"
+        "description" : "Win 350+ electoral votes with Sparkman as your running mate",
+        "cannotBeCheated" : true
     },
     "Whole House Mad" : {
         "image" : "https://i.imgur.com/lSxqqmP.png",
-        "description" : "Lose every state with Sparkman by your side"
+        "description" : "Lose every state with Sparkman by your side",
+        "cannotBeCheated" : true
     },
     "All Aboard!" : {
         "image" : "https://i.imgur.com/giHadxS.png",
@@ -70,7 +75,6 @@ campaignTrail_temp.achievements = {
         "cannotBeCheated" : true
     }
 }
-
 
 campaignTrail_temp.temp_election_list = [
     {
