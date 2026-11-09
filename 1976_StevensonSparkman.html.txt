@@ -840,7 +840,7 @@ campaignTrail_temp.answers_json = [
         "pk": 13044,
         "fields": {
             "question": 441,
-            "description": "Call me crazy, but I think we can use this as a way to bring back some progressives. With Howard as Vice President, Ford most definitely would be able to pass most of his agenda—a thought that I doubt many progressives are ecstatic about."
+            "description": "Call me crazy, but I think we can use this as a way to bring back some progressives. With Howard as Vice President, Ford most definitely would be able to pass most of his agenda- a thought that I doubt many progressives are ecstatic about."
         }
     },
     {
@@ -13295,8 +13295,19 @@ endingPicker = (out, totv, aa, quickstats) => {
             }
         }, 50);
     }
-
+function ctsAchievement(achievement, difficultyChecker = true) {
+    if ((difficultyChecker && campaignTrail_temp.difficulty_level_multiplier <= 1) || !difficultyChecker) {
+        if (campaignTrail_temp.CTS) {
+            unlockAchievement(achievement);
+        }
+    }
+}
+if (campaignTrail_temp.player_electors >= 270) {
+    ctsAchievement("Ball and Chain");
+}
     if(quickstats[0] > 350) {
+        unlockAchievement("Ball and Chain");
+        unlockAchievement("Todays Subject—Slavery"); 
         setImage("https://i.imgur.com/29O63DQ_d.png?maxwidth=520&shape=thumb&fidelity=high");
         return `<h1>Congratulations! You Wiped the Floor with Ford! </h1>
 
@@ -13305,7 +13316,7 @@ Now that’s what I’m talking about, Steve! It seemed to be slipping from our 
 <p>I’m certain your father is looking down with the widest smile he could possibly give. Even with this astounding mandate, the Senate and House are only slightly in our favor. I highly doubt it, but maybe Sparkman can get through the eventual deadlock and emerge with some popular bipartisan legislation. For now, though, let's pop open some Chardonnay! Oaked, of course.
 `;
     }
-    if(quickstats[0] < 150) {
+    if(quickstats[0] == 150 - 81) {
         setImage("https://i.imgur.com/uk3Aeyw_d.png?maxwidth=520&shape=thumb&fidelity=high");
         return `<h1>Ouch, You Lost in a Landslide...</h1>
 
@@ -13321,7 +13332,8 @@ Well…that could have gone better. Ford didn’t just win; he demolished us. So
 < p> Are you sure this election was legitimate? I've been hearing things about a federal investigation into this. You better not have done anything wrong, Stevenson.
 `;
     }
-    if(quickstats[0] < 80) {
+    if(quickstats[0] == 80 - 4) {
+        unlockAchievement("Who's At Fault?");
         setImage("https://i.imgur.com/uk3Aeyw_d.png?maxwidth=520&shape=thumb&fidelity=high");
         return `<h1>Just Like the Last Stevenson/Sparkman Ticket, it Ends in Complete Failure<h1>
 
@@ -13330,6 +13342,8 @@ Well…that could have gone better. Ford didn’t just win; he demolished us. So
 <p>I think it goes without saying, Adlai, but you won’t ever get the nomination after a beating this horrific.`;
     }
     if(quickstats[0] == 3) {
+        unlockAchievement("Who's At Fault?");
+        unlockAchievement("Whole House Mad");
         setImage("https://i.imgur.com/uk3Aeyw_d.png?maxwidth=520&shape=thumb&fidelity=high");
         return `<h1>Just Like the Last Stevenson/Sparkman Ticket, it Ends in Complete Failure<h1>
 
@@ -13338,6 +13352,8 @@ Well…that could have gone better. Ford didn’t just win; he demolished us. So
 <p> Do I even need to tell you that no one with the last name "Stevenson" will ever even come close to nomination after this? I don't even want to think about what legislation Ford could pass with his historic mandate.`;
     }
     if(quickstats[0] == 0) {
+        unlockAchievement("Who's At Fault?");
+        unlockAchievement("Whole House Mad");
         setImage("https://i.imgur.com/uk3Aeyw_d.png?maxwidth=520&shape=thumb&fidelity=high");
         return `<h1>Just Like the Last Stevenson/Sparkman Ticket, it Ends in Complete Failure<h1>
 
@@ -13346,7 +13362,6 @@ Well…that could have gone better. Ford didn’t just win; he demolished us. So
 <p> Do I even need to tell you that no one with the last name "Stevenson" will ever even come close to nomination after this? I don't even want to think about what legislation Ford could pass with his historic mandate. I'm going home, Adlai. Goodnight.`;
     }
 }
-
 
 campaignTrail_temp.jet_data = [{
     "banner_enabled": true,
@@ -13378,11 +13393,11 @@ campaignTrail_temp.jet_data = [{
         "1791003398597": {
             "id": 1791003398597,
             "variable": 0,
-            "operator": "<",
+            "operator": "==",
             "value": 0,
             "endingImage": "https://i.imgur.com/uk3Aeyw_d.png?maxwidth=520&shape=thumb&fidelity=high",
             "endingText": "<h1>Ouch, You Lost in a Landslide...</h1>\n\nWell…that could have gone better. Ford didn’t just win; he demolished us. Sorry, I didn’t mean to rub salt in the wound.\n\n<p>At least Ford is quite moderate. I'm sure you’ll be able to work with him to provide moderate, positive legislation, unless Dole tries to intervene. With a loss this bad, I don’t believe you’ll ever have another chance at the presidency, no matter how hard you try to pin the blame on Sparkman.\n",
-            "amount": "150"
+            "amount": "150 - 81"
         },
         "1791066294504": {
             "id": 1791066294504,
@@ -13396,11 +13411,11 @@ campaignTrail_temp.jet_data = [{
         "1793815697536": {
             "id": 1793815697536,
             "variable": 0,
-            "operator": "<",
+            "operator": "==",
             "value": 0,
             "endingImage": "https://i.imgur.com/uk3Aeyw_d.png?maxwidth=520&shape=thumb&fidelity=high",
             "endingText": "<h1>Just Like the Last Stevenson/Sparkman Ticket, it Ends in Complete Failure<h1>\n\n<p>Wow...I'm not surprised we lost, but by this much? Many pundits are already starting to debate whether this was Sparkman's or your fault. With this mandate, and Howard Baker by his side, Ford will surely pass most, if not all, of his agenda.\n\n<p>I think it goes without saying, Adlai, but you won’t ever get the nomination after a beating this horrific.",
-            "amount": "80"
+            "amount": "80 - 4"
         },
         "1794177059375": {
             "id": 1794177059375,
