@@ -840,7 +840,7 @@ campaignTrail_temp.answers_json = [
         "pk": 13044,
         "fields": {
             "question": 441,
-            "description": "Call me crazy, but I think we can use this as a way to bring back some progressives. With Howard as Vice President, Ford most definitely would be able to pass most of his agenda- a thought that I doubt many progressives are ecstatic about."
+            "description": "Call me crazy, but I think we can use this as a way to bring back some progressives. With Howard as Vice President, Ford most definitely would be able to pass most of his agenda—a thought that I doubt many progressives are ecstatic about."
         }
     },
     {
@@ -4748,7 +4748,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 91,
             "state": 264,
-            "state_multiplier": 0.86
+            "state_multiplier": 0.85
         }
     },
     {
