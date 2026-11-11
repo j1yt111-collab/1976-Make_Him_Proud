@@ -44,30 +44,30 @@ campaignTrail_temp.election_json = [
 ]
 
 campaignTrail_temp.achievements = {
-    "Ball and Chain" : {
-        "image" : "https://i.imgur.com/YEiidWT.png",
-        "description" : "Win with Sparkman as your running mate",
-        "cannotBeCheated" : true
+    "Ball and Chain": {
+        "image": "https://i.imgur.com/YEiidWT.png",
+        "description": "Win with Sparkman as your running mate"
     },
-    "Who's At Fault?" : {
-        "image" : "https://i.imgur.com/W7s7Auw.png",
-        "description" : "Get under 80 electoral votes with Sparkman as your running mate",
-        "cannotBeCheated" : true
+    "Who's At Fault?": {
+        "image": "https://i.imgur.com/W7s7Auw.png",
+        "description": "Get under 80 electoral votes with Sparkman as your running mate"
     },
-    "Mean Gene" : {
-        "image" : "https://i.imgur.com/SgyEsbT.png",
-        "description" : "As Adlai Stevenson, have McCarthy win electoral votes",
-        "cannotBeCheated" : true
+    "Mean Gene": {
+        "image": "https://i.imgur.com/SgyEsbT.png",
+        "description": "As Adlai Stevenson, have McCarthy win electoral votes"
     },
-    "Todays Subject—Slavery" : {
-        "image" : "https://i.imgur.com/VSgugrq.png",
-        "description" : "Win 350+ electoral votes with Sparkman as your running mate",
-        "cannotBeCheated" : true
+    "Todays Subject—Slavery": {
+        "image": "https://i.imgur.com/VSgugrq.png",
+        "description": "Win 350+ electoral votes with Sparkman as your running mate"
     },
-    "Whole House Mad" : {
-        "image" : "https://i.imgur.com/lSxqqmP.png",
-        "description" : "Lose every state with Sparkman by your side",
-        "cannotBeCheated" : true
+    "Whole House Mad": {
+        "image": "https://i.imgur.com/lSxqqmP.png",
+        "description": "Lose every state with Sparkman by your side"
+    },
+    "All Aboard!": {
+        "image": "https://i.imgur.com/giHadxS.png",
+        "description": "Win while endorsing busing with Sparkman as your running mate",
+        "cannotBeCheated": true
     }
 }
 
@@ -208,7 +208,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Independent",
             "state": "Minnesota",
             "priority": 1,
-            "description": "<b>COMING SOON</b>\n\n<p> The party has become a shell of its former self. It all started with Johnson and Vietnam, and now with Stevenson having been forced to have Sparkman as his second in command. Eugene McCarthy is not one to stand by and let it all fall apart by southern bigots. \n\n<p>McCarthy’s chances are slim to none, but that never stopped him before, and it’s not stopping him now. The Democratic Party needs to be woken up, given a good smack in the face and a look in the mirror; Eugene’s here to give it to ‘em, and so much more.",
+            "description": "<b>COMING SOON</b>\n\n​\n\n<p> The party has become a shell of its former self. It all started with Johnson and Vietnam, and now with Stevenson being forced to make Sparkman his second-in-command. Eugene McCarthy is not one to stand by and let it all fall apart by southern bigots. \n\n​\n\n<p>McCarthy’s chances are slim to none, but that never stopped him before, and it’s not stopping him now. The Democratic Party needs to be woken up, given a good smack in the face, and a look in the mirror; Eugene’s here to give it to 'em-and so much more.",
             "color_hex": "#00ff91",
             "secondary_color_hex": null,
             "is_active": 1,
@@ -262,7 +262,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "<p>There is no one who makes more sense to be your running mate than Mike Gravel. Mike was initially hesitant to join the ticket, but after Sparkman's nomination, he had no more doubts. Two peas in a pod, some may say; you and Mike have both been viewed as some of the most anti-war senators in the modern era, and both have liberal views on most issues.\n\n<p>Mike may not broaden your coalition in any way, but there's no doubt that with his presence, the base will be fired up and ready to vote.\n",
+            "description_as_running_mate": "<p>There is no one who makes more sense to be your running mate than Mike Gravel. Mike was initially hesitant to join the ticket, but after Sparkman's nomination, he had no more doubts. Two peas in a pod, some may say; you and Mike have both been viewed as some of the most anti-war senators in the modern era, and both have liberal views on most issues.\n\n​\n\n<p>Mike may not broaden your coalition in any way, but there's no doubt that with his presence, the base will be fired up and ready to vote.",
             "candidate_score": 1,
             "running_mate": true
         }
@@ -285,7 +285,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "<p>Robert Drinan is a representative from Massachusetts's fourth district who ran on an anti-war platform in his first run for the House, just barely beating decades-long-serving Congressman Philip Joseph Philbin.\n\n<p>The biggest strength Drinan has is where he’s from. Massachusetts is set to be one of our best states, and having Drinan on the ticket would certainly help us bring it home. Although he wouldn't really help anywhere else, since most people outside of Massachusetts have heard very little of him, but isn't that all we need from him?\n\n",
+            "description_as_running_mate": "<p>Robert Drinan is a representative from Massachusetts's fourth district who ran on an anti-war platform in his first run for the House, just barely beating decades-long-serving congressman Philip Joseph Philbin.\n\n​\n\n<p>The biggest strength Drinan has is where he’s from. Massachusetts is set to be one of our best states, and having Drinan on the ticket would certainly help us bring it home. Although he wouldn't really help anywhere else, since most people outside of Massachusetts have heard very little of him, but isn't that all we need from him?",
             "candidate_score": 1,
             "running_mate": true
         }
