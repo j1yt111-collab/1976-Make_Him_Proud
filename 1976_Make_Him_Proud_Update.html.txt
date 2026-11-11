@@ -203,7 +203,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Independent",
             "state": "Minnesota",
             "priority": 1,
-            "description": "<b>COMING SOON</b>\n\n​\n\n<p> The party has become a shell of its former self. It all started with Johnson and Vietnam, and now with Stevenson being forced to make Sparkman his second-in-command. Eugene McCarthy is not one to stand by and let it all fall apart by southern bigots. \n\n​\n\n<p>McCarthy’s chances are slim to none, but that never stopped him before, and it’s not stopping him now. The Democratic Party needs to be woken up, given a good smack in the face, and a look in the mirror; Eugene’s here to give it to 'em-and so much more.",
+            "description": "<b>COMING SOON</b>\n\n​\n\n<p> The party has become a shell of its former self. It all started with Johnson and Vietnam, and now with Stevenson being forced to make Sparkman his second-in-command. Eugene McCarthy is not one to stand by and let it all fall apart by Southern bigots. \n\n​\n\n<p>McCarthy’s chances are slim to none, but that never stopped him before, and it’s not stopping him now. The Democratic Party needs to be woken up, given a good smack in the face, and a look in the mirror; Eugene’s here to give it to 'em-and so much more.",
             "color_hex": "#00ff91",
             "secondary_color_hex": null,
             "is_active": 1,
