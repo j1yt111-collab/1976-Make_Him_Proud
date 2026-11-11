@@ -63,11 +63,6 @@ campaignTrail_temp.achievements = {
     "Whole House Mad": {
         "image": "https://i.imgur.com/lSxqqmP.png",
         "description": "Lose every state with Sparkman by your side"
-    },
-    "All Aboard!": {
-        "image": "https://i.imgur.com/giHadxS.png",
-        "description": "Win while endorsing busing with Sparkman as your running mate",
-        "cannotBeCheated": true
     }
 }
 
