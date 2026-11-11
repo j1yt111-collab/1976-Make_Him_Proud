@@ -5387,7 +5387,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 93,
             "state": 233,
-            "state_multiplier": 0.04
+            "state_multiplier": 0.085
         }
     },
     {
@@ -5432,7 +5432,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 93,
             "state": 238,
-            "state_multiplier": 0.035
+            "state_multiplier": 0.07
         }
     },
     {
@@ -5720,7 +5720,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 93,
             "state": 270,
-            "state_multiplier": 0.12
+            "state_multiplier": 0.1755
         }
     },
     {
@@ -13305,8 +13305,8 @@ function ctsAchievement(achievement, difficultyChecker = true) {
 if (campaignTrail_temp.player_electors = 270 - 538) {
     unlockAchievement("Ball and Chain");
 }
-if (campaignTrail_candidate_93_electors = 1 - 538) {
-    unlockAchievement("Mean Gene"); 
+if (campaignTrail_temp.candidate_93_electors = 1 - 538) {
+    unlockAchievement("Mean Gene");  
 }
     if(quickstats[0] > 350) {
         unlockAchievement("Ball and Chain");
